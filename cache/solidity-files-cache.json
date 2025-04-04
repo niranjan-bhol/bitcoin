@@ -1,44 +1,6 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/niranjanbhol/Documents/Bitcoin/contracts/AlphaToken.sol": {
-      "lastModificationDate": 1743803129665,
-      "contentHash": "6ce77c2f9ee9ffcff1e0e60e2cf4a5b0",
-      "sourceName": "contracts/AlphaToken.sol",
-      "solcConfig": {
-        "version": "0.8.21",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "AlphaToken"
-      ]
-    },
     "/Users/niranjanbhol/Documents/Bitcoin/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
       "lastModificationDate": 1743800447085,
       "contentHash": "227a6eb2225701c12d9c959b758b6333",
@@ -228,10 +190,10 @@
         "IERC20"
       ]
     },
-    "/Users/niranjanbhol/Documents/Bitcoin/contracts/MyToken.sol": {
-      "lastModificationDate": 1743800685287,
-      "contentHash": "1a696deb4d99dce76c0e941c940ca559",
-      "sourceName": "contracts/MyToken.sol",
+    "/Users/niranjanbhol/Documents/Bitcoin/contracts/AurumToken.sol": {
+      "lastModificationDate": 1743803967095,
+      "contentHash": "d23a0846960bda4c70c871bb69a69996",
+      "sourceName": "contracts/AurumToken.sol",
       "solcConfig": {
         "version": "0.8.21",
         "settings": {
@@ -256,12 +218,14 @@
           }
         }
       },
-      "imports": [],
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.20"
       ],
       "artifacts": [
-        "MyToken"
+        "AurumToken"
       ]
     }
   }

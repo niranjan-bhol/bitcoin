@@ -1,17 +1,16 @@
 const { ethers } = require("hardhat");
 
 async function main() {
-    const AlphaToken = await ethers.getContractFactory("AlphaToken"); 
-    const alphaToken = await AlphaToken.deploy(); 
+  const AurumToken = await ethers.getContractFactory("AurumToken");
+  const aurum = await AurumToken.deploy();
 
-    await alphaToken.waitForDeployment();  // FIXED
+  // Wait for deployment to complete
+  await aurum.waitForDeployment();
 
-    console.log(`Contract deployed at: ${await alphaToken.getAddress()}`);
+  console.log("AurumToken deployed at:", await aurum.getAddress());
 }
 
-main()
-    .then(() => process.exit(0))
-    .catch((error) => {
-        console.error(error);
-        process.exit(1);
-    });
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
