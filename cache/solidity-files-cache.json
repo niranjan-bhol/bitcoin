@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/niranjanbhol/Documents/Bitcoin/contracts/AlphaToken.sol": {
-      "lastModificationDate": 1743800483562,
-      "contentHash": "18d0b8993b7bb05845eca741944eee93",
+      "lastModificationDate": 1743803129665,
+      "contentHash": "6ce77c2f9ee9ffcff1e0e60e2cf4a5b0",
       "sourceName": "contracts/AlphaToken.sol",
       "solcConfig": {
         "version": "0.8.21",

@@ -1,0 +1,2 @@
+(await AlphaToken.totalSupply()).toString();
+const AlphaToken = await ethers.getContractAt("AlphaToken", "0x324F2cCe042FAf7AE5Bc98FeF43Afb23925BfbA5");
